@@ -103,6 +103,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
+					
 						<div class="header-text">
 							<h2>hi <span>,</span> i am <br> Jagrati <br> Godake <span>.</span>   </h2>
 							<p>ui designer and web developer</p>
@@ -838,33 +839,42 @@
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name" title="No special characters or NO."  >
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+													<input type="text" class="form-control" id="contactno" placeholder="contact_No*" name="contactno" title="fill 10 digits"  maxlength="10" size="10">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<p id="demo"></p>
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="email" placeholder="Email*" name="email" title="use@ in email id" >
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" >
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
+										
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<textarea class="form-control" rows="8" id="comment" placeholder="Message"  name="Message"></textarea>
+													<textarea class="form-control" rows="8" id="comment" placeholder="Message"  name="Message" ></textarea>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="single-contact-btn">
-													<button class="contact-btn" type="submit" role="button">submit</button>
+													<button class="contact-btn" type="submit" role="button" >submit</button>
 												</div><!--/.single-single-contact-btn-->
 											</div><!--/.col-->
 										</div><!--/.row-->
@@ -967,6 +977,9 @@
         
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
+
+
+	
         
     </body>
 	
