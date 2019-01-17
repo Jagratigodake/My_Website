@@ -147,7 +147,7 @@
 										</div>
 									</div>
 									</div>
-									
+								
 									
 									<div class="col-sm-4">
 										<div class="single-about-add-info">
@@ -839,20 +839,25 @@
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name" title="No special characters or NO."  >
+												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name" title="No special characters or NO." pattern="^[\p{L}\p{M} \-\.',]*$"  >
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-													<input type="text" class="form-control" id="contactno" placeholder="contact_No*" name="contactno" title="fill 10 digits"  maxlength="10" size="10">
+													<input type="text" class="form-control" id="contactno" placeholder="contact_No*" name="contactno" title="fill 10 digit mobileNo. without any space"  maxlength="10" size="10"  pattern="[7-9]{1}[0-9]{9}">
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<p id="demo"></p>
 										<div class="row">
-											<div class="col-sm-12">
+											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
 													<input type="email" class="form-control" id="email" placeholder="Email*" name="email" title="use@ in email id" >
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+												  <input type="text" class="form-control" id="age" placeholder="Age" name="age" title="Enter age in digits" pattern="^[\p{L}\p{M} \-\.',]*$"  >
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
@@ -978,9 +983,23 @@
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
 
+<!-- form validation
+			<script>
+			function phonenumber(inputtxt)
+		{
+  		var phoneno = /^\d{10}$/;
+  		if(inputtxt.value.match(phoneno))
+  		{
+      		return true;
+  		}
+  		else
+  		{
+     		alert("Not a valid Phone Number");
+     		return false;
+  		}
+  		}
+	</script>-->
 
-	
-        
     </body>
 	
 </html>

@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  background-color: #d2ebff;
+}
+
+.login-banner{
+	display:block;
+	border: 1px solid white;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	background-color: white;
+	box-shadow: 1px 3px 5px #888;
+	padding: 10px;
+}
+
+.login-head{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+.row{
+	display: block;
+	width:100%;
+	text-align:center;
+}
+
+.left-block{
+	display:inline-block;
+	width: 20%;
+}
+.right-block{
+	display:inline;
+	width: 60%;
+}
+
+.input-item{
+	margin-top:15px;
+	width: 270px;
+	height: 40px;
+	padding-left:10px;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	color: black;
+	transition: .15s ease-in-out;
+}
+
+.input-item:hover{
+	box-shadow: 2px 2px 5px #888;
+	transition: .15s ease-in-out;
+}
+
+.input-item:focus{
+	background-color: #dedede;
+	border: 1px solid  #dedede;
+	color: black;
+	outline: none;
+	box-shadow: 2px 2px 5px #888;
+}
+
+.login-button{
+	margin-top: 20px;
+	display:block;
+	border: 1px solid #95ccf9;
+	background-color: #95ccf9;
+	color: white;
+	width: 270px;
+	height: 40px;
+	font-size:20px;
+	margin-left:auto;
+	margin-right:auto;	
+	transition: .15s ease-in-out;
+}
+
+.login-button:hover{
+	cursor: pointer;
+	transition: .15s ease-in-out;
+	box-shadow: 2px 2px 5px #888;
+}
+
+.login-link{
+	color: #95ccf9;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+}
+
+.login-link:hover{
+	color: #71bcf9;
+}
